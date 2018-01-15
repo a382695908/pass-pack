@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "pass-pack",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rxk666666/pass-pack.git"
+  },
   "bin": {
     "pass-pack": "lib/cli.js"
   },
