@@ -1,27 +1,27 @@
 {
-  "name": "pass-pack",
-  "version": "1.0.0",
-  "description": "pass-pack",
+  "name": "pass-packet",
+  "version": "1.0.1",
+  "description": "pass-packet",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/rxk666666/pass-pack.git"
   },
   "bin": {
-    "pass-pack": "lib/cli.js"
+    "pass-packet": "lib/cli.js"
   },
   "scripts": {
-    "publish": "babel src -d lib --presets=es2015,stage-2 --plugins transform-runtime"
+    "build": "babel src -d lib --presets=es2015,stage-2 --plugins transform-runtime"
   },
   "author": "rxk666666",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.3.0",
     "fs-extra": "^5.0.0",
-    "inquirer": "^5.0.0"
+    "inquirer": "^5.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0"
   },
   "devDependencies": {
-    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1"
   }
