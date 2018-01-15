@@ -14,11 +14,11 @@ npm install pass-packet -g
 
 在shell或cmd中输入`pass-packet`
 
-![](https://github.com/rxk666666/pass-pack/blob/master/assets/init.png)
+![](https://raw.githubusercontent.com/rxk666666/pass-pack/master/assets/init.png)
 
-![](https://github.com/rxk666666/pass-pack/blob/master/assets/add.png)
+![](https://raw.githubusercontent.com/rxk666666/pass-pack/master/assets/add.png)
 
-![](https://github.com/rxk666666/pass-pack/blob/master/assets/show.png)
+![](https://raw.githubusercontent.com/rxk666666/pass-pack/master/assets/show.png)
 
 ### 存储地址
 默认存储在~/.pass-pack/pass.json

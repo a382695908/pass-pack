@@ -1,6 +1,6 @@
 {
   "name": "pass-packet",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "pass-packet",
   "main": "index.js",
   "repository": {
